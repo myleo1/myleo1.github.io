@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - Leo&#39;s 小破站</title>
+        <link>https://blog.leom.me/posts/</link>
+        <description>所有文章 | Leo&#39;s 小破站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 10 Jul 2021 09:03:00 &#43;0800</lastBuildDate><atom:link href="https://blog.leom.me/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>杂谈1</title>
+    <link>https://blog.leom.me/posts/prose1/</link>
+    <pubDate>Sat, 10 Jul 2021 09:03:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.leom.me/posts/prose1/</guid>
+    <description><![CDATA[最近几天在逛Github的时候发现了人人影视bot的作者竟然是土豆不好吃，感谢大神对人人最后的支持，也怀念以前用人人影视下剧看的日子。大学时]]></description>
+</item></channel>
+</rss>
