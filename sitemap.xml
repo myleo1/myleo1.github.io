@@ -1,13 +1,14 @@
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml"
-    ><url>
-            <loc>https://blog.leom.me/posts/prose1/</loc><lastmod>2021-07-10T09:03:00&#43;08:00</lastmod></url><url>
-            <loc>https://blog.leom.me/categories/</loc><lastmod>2021-07-10T09:03:00&#43;08:00</lastmod></url><url>
-            <loc>https://blog.leom.me/</loc><lastmod>2021-07-10T09:03:00&#43;08:00</lastmod></url><url>
-            <loc>https://blog.leom.me/posts/</loc><lastmod>2021-07-10T09:03:00&#43;08:00</lastmod></url><url>
-            <loc>https://blog.leom.me/tags/</loc><lastmod>2021-07-10T09:03:00&#43;08:00</lastmod></url><url>
-            <loc>https://blog.leom.me/tags/%E6%9D%82%E8%B0%88/</loc><lastmod>2021-07-10T09:03:00&#43;08:00</lastmod></url><url>
-            <loc>https://blog.leom.me/categories/%E6%9D%82%E8%B0%88/</loc><lastmod>2021-07-10T09:03:00&#43;08:00</lastmod></url><url>
-            <loc>https://blog.leom.me/tags/%E9%9F%B3%E4%B9%90/</loc><lastmod>2021-07-10T09:03:00&#43;08:00</lastmod></url><url>
-            <loc>https://blog.leom.me/about/</loc><lastmod>2021-07-09T16:13:55&#43;08:00</lastmod></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>http://myleo1.github.io/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://myleo1.github.io/zh-cn/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
