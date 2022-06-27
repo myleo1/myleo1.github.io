@@ -2,6 +2,17 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://myleo1.github.io/kubeedge_arch_and_core_component/</loc><lastmod>2022-06-27T17:30:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://myleo1.github.io/</loc><lastmod>2022-06-27T17:30:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://myleo1.github.io/en/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://myleo1.github.io/"
+                    /></url><url>
+            <loc>http://myleo1.github.io/posts/</loc><lastmod>2022-06-27T17:30:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://myleo1.github.io/about/</loc><lastmod>2022-06-26T18:58:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://myleo1.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
@@ -11,15 +22,6 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="http://myleo1.github.io/categories/"
-                    /></url><url>
-            <loc>http://myleo1.github.io/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://myleo1.github.io/en/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="http://myleo1.github.io/"
                     /></url><url>
             <loc>http://myleo1.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
