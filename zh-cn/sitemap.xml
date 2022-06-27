@@ -2,6 +2,17 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://myleo1.github.io/categories/</loc><lastmod>2022-06-27T17:30:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://myleo1.github.io/en/categories/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://myleo1.github.io/categories/"
+                    /></url><url>
+            <loc>http://myleo1.github.io/tags/kubeedge/</loc><lastmod>2022-06-27T17:30:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://myleo1.github.io/categories/kubeedge/</loc><lastmod>2022-06-27T17:30:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://myleo1.github.io/kubeedge%E6%9E%B6%E6%9E%84%E5%8F%8A%E5%85%B6%E6%A0%B8%E5%BF%83%E7%BB%84%E4%BB%B6/</loc><lastmod>2022-06-27T17:30:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://myleo1.github.io/</loc><lastmod>2022-06-27T17:30:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
@@ -13,17 +24,7 @@
                     href="http://myleo1.github.io/"
                     /></url><url>
             <loc>http://myleo1.github.io/posts/</loc><lastmod>2022-06-27T17:30:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://myleo1.github.io/about/</loc><lastmod>2022-06-26T18:58:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://myleo1.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://myleo1.github.io/en/categories/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="http://myleo1.github.io/categories/"
-                    /></url><url>
-            <loc>http://myleo1.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://myleo1.github.io/tags/</loc><lastmod>2022-06-27T17:30:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://myleo1.github.io/en/tags/"
@@ -31,4 +32,6 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="http://myleo1.github.io/tags/"
-                    /></url></urlset>
+                    /></url><url>
+            <loc>http://myleo1.github.io/tags/%E8%BE%B9%E7%BC%98%E8%AE%A1%E7%AE%97/</loc><lastmod>2022-06-27T17:30:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://myleo1.github.io/about/</loc><lastmod>2022-06-26T18:58:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
