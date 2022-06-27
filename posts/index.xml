@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>admin@leow.tech (Leo)</managingEditor>
             <webMaster>admin@leow.tech (Leo)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 27 Jun 2022 17:30:52 &#43;0800</lastBuildDate><atom:link href="http://myleo1.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>KubeEdge架构及其核心组件</title>
-    <link>http://myleo1.github.io/kubeedge_arch_and_core_component/</link>
+    <link>http://myleo1.github.io/kubeedge%E6%9E%B6%E6%9E%84%E5%8F%8A%E5%85%B6%E6%A0%B8%E5%BF%83%E7%BB%84%E4%BB%B6/</link>
     <pubDate>Mon, 27 Jun 2022 17:30:52 &#43;0800</pubDate>
     <author>Leo</author>
-    <guid>http://myleo1.github.io/kubeedge_arch_and_core_component/</guid>
+    <guid>http://myleo1.github.io/kubeedge%E6%9E%B6%E6%9E%84%E5%8F%8A%E5%85%B6%E6%A0%B8%E5%BF%83%E7%BB%84%E4%BB%B6/</guid>
     <description><![CDATA[核心理念 云边协同 双向多路复用消息通道，支持边缘节点位于私有网络（无公网IP环境） Websocket+消息封装，大幅减少通信压力，高时延下仍可]]></description>
 </item>
 </channel>
