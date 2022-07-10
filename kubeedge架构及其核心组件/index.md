@@ -10,13 +10,13 @@
   - 节点元数据持久化，实现节点级离线自治
   - 节点故障恢复无需List-watch，降低网络压力，快速ready
 - 极致轻量
-  - 重组Kubelet功能模块，极致轻量化（~10mb内存占用）
+  - 重组Ksubelet功能模块，极致轻量化（~10mb内存占用）
     - 移除内嵌存储驱动，通过CSI接入
   - 支持CRI集成Containerd、CRI-O，优化runtime资源消耗
 
 ## 架构
 
-<div align=center><img src="/KubeEdge_Arch_And_Core_Component/kubeedge_arch.png" alt="kubeedge_arch" style="zoom: 33%;" /></div>
+<div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_arch.png" alt="edgemesh_arch" style="zoom:33%;" /></div>
 
 KubeEdge总体由云上部分（CloudCore）和边缘部分（EdgeCore）构成:
 
