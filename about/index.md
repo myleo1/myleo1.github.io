@@ -6,7 +6,7 @@
      <div>
          <span>
              <img src="/about/envelope-solid.svg" width="18px">
-             admin@leow.tech
+             leo@leosgo.com
          </span>
          ·
          <span>

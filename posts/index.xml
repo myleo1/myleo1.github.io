@@ -3,8 +3,8 @@
         <title>所有文章 - Leo&#39;s iSite</title>
         <link>http://myleo1.github.io/posts/</link>
         <description>所有文章 | Leo&#39;s iSite</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>admin@leow.tech (Leo)</managingEditor>
-            <webMaster>admin@leow.tech (Leo)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 10 Jul 2022 17:31:16 &#43;0800</lastBuildDate><atom:link href="http://myleo1.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>leo@leosgo.com (Leo)</managingEditor>
+            <webMaster>leo@leosgo.com (Leo)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 10 Jul 2022 17:31:16 &#43;0800</lastBuildDate><atom:link href="http://myleo1.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>KubeEdge组件之EdgeMesh</title>
     <link>http://myleo1.github.io/kubeedge%E7%BB%84%E4%BB%B6%E4%B9%8Bedgemesh/</link>
     <pubDate>Sun, 10 Jul 2022 17:31:16 &#43;0800</pubDate>
