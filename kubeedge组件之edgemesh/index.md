@@ -7,7 +7,7 @@
 
 <div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_background_cloudnative_network.png" alt="edgemesh_background_cloudnative_network" style="zoom:35%;" /></div>
 
-- 第一阶段：Docker 容器网络，在 Docker 出现之后，也有自己的 4 种容器网络模型，比如 Host 模式、Content 模式，None 模式以及 Bridge 模式。但原生 Docker 容器无法解决容器之间的跨级通信问题，后来 Docker 推出 CNM 以及对应的实现 libnetwork 解决了这个问题。
+- 第一阶段：Docker 容器网络，在 Docker 出现之后，也有自己的 4 种容器网络模型，比如 Host 模式、Container 模式，None 模式以及 Bridge 模式。但原生 Docker 容器无法解决容器之间的跨级通信问题，后来 Docker 推出 CNM 以及对应的实现 libnetwork 解决了这个问题。
 - 第二阶段：容器网络接口(CNI), 后来由于各种原因 Kubernetes 主推的 CNI 热度反超了 CNM，CNI 是一个接口更简单、而且兼容性更高的容器网络接口规范。
 - 第三阶段: 服务网格 + CNI, 随着服务网络的发展，它与 CNI 进行了配合，一些服务网格的插件，会在每个 pod 启动时往 pod 里注入 Sidecar 代理，来提供 4 层或 7 层的流量治理功能。
 

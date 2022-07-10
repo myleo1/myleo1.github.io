@@ -10,7 +10,7 @@
     <pubDate>Sun, 10 Jul 2022 17:31:16 &#43;0800</pubDate>
     <author>Leo</author>
     <guid>http://myleo1.github.io/kubeedge%E7%BB%84%E4%BB%B6%E4%B9%8Bedgemesh/</guid>
-    <description><![CDATA[背景 云原生容器网络发展阶段 第一阶段：Docker 容器网络，在 Docker 出现之后，也有自己的 4 种容器网络模型，比如 Host 模式、Content 模式，None]]></description>
+    <description><![CDATA[背景 云原生容器网络发展阶段 第一阶段：Docker 容器网络，在 Docker 出现之后，也有自己的 4 种容器网络模型，比如 Host 模式、Container 模式，No]]></description>
 </item>
 <item>
     <title>KubeEdge架构及其核心组件</title>

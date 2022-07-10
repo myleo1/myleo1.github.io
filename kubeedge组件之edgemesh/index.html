@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <title>KubeEdge组件之EdgeMesh - Leo&#39;s iSite</title><meta name="Description" content="Leo&#39;s iSite"><meta property="og:title" content="KubeEdge组件之EdgeMesh" />
-<meta property="og:description" content="背景 云原生容器网络发展阶段 第一阶段：Docker 容器网络，在 Docker 出现之后，也有自己的 4 种容器网络模型，比如 Host 模式、Content 模式，None" />
+<meta property="og:description" content="背景 云原生容器网络发展阶段 第一阶段：Docker 容器网络，在 Docker 出现之后，也有自己的 4 种容器网络模型，比如 Host 模式、Container 模式，No" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://myleo1.github.io/kubeedge%E7%BB%84%E4%BB%B6%E4%B9%8Bedgemesh/" /><meta property="og:image" content="http://myleo1.github.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-07-10T17:31:16+08:00" />
@@ -15,7 +15,7 @@
 <meta name="twitter:image" content="http://myleo1.github.io/logo.png"/>
 
 <meta name="twitter:title" content="KubeEdge组件之EdgeMesh"/>
-<meta name="twitter:description" content="背景 云原生容器网络发展阶段 第一阶段：Docker 容器网络，在 Docker 出现之后，也有自己的 4 种容器网络模型，比如 Host 模式、Content 模式，None"/>
+<meta name="twitter:description" content="背景 云原生容器网络发展阶段 第一阶段：Docker 容器网络，在 Docker 出现之后，也有自己的 4 种容器网络模型，比如 Host 模式、Container 模式，No"/>
 <meta name="application-name" content="Leo&#39;s iSite">
 <meta name="apple-mobile-web-app-title" content="Leo&#39;s iSite"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -35,7 +35,7 @@
                             "url": "http:\/\/myleo1.github.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "KubeEdge, EdgeMesh, 边缘计算","wordcount":  2505 ,
+                        }],"genre": "posts","keywords": "KubeEdge, EdgeMesh, 边缘计算","wordcount":  2507 ,
         "url": "http:\/\/myleo1.github.io\/kubeedge%E7%BB%84%E4%BB%B6%E4%B9%8Bedgemesh\/","datePublished": "2022-07-10T17:31:16+08:00","dateModified": "2022-07-10T17:31:16+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -119,8 +119,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">KubeEdge组件之EdgeMesh</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Leo</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/kubeedge/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>KubeEdge</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-10">2022-07-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 2505 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 5 分钟&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-10">2022-07-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 2507 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 6 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>目录</span>
@@ -168,7 +168,7 @@
 <h3 id="云原生容器网络发展阶段">云原生容器网络发展阶段</h3>
 <div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_background_cloudnative_network.png" alt="edgemesh_background_cloudnative_network" style="zoom:35%;" /></div>
 <ul>
-<li>第一阶段：Docker 容器网络，在 Docker 出现之后，也有自己的 4 种容器网络模型，比如 Host 模式、Content 模式，None 模式以及 Bridge 模式。但原生 Docker 容器无法解决容器之间的跨级通信问题，后来 Docker 推出 CNM 以及对应的实现 libnetwork 解决了这个问题。</li>
+<li>第一阶段：Docker 容器网络，在 Docker 出现之后，也有自己的 4 种容器网络模型，比如 Host 模式、Container 模式，None 模式以及 Bridge 模式。但原生 Docker 容器无法解决容器之间的跨级通信问题，后来 Docker 推出 CNM 以及对应的实现 libnetwork 解决了这个问题。</li>
 <li>第二阶段：容器网络接口(CNI), 后来由于各种原因 Kubernetes 主推的 CNI 热度反超了 CNM，CNI 是一个接口更简单、而且兼容性更高的容器网络接口规范。</li>
 <li>第三阶段: 服务网格 + CNI, 随着服务网络的发展，它与 CNI 进行了配合，一些服务网格的插件，会在每个 pod 启动时往 pod 里注入 Sidecar 代理，来提供 4 层或 7 层的流量治理功能。</li>
 </ul>
