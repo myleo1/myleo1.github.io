@@ -5,7 +5,7 @@
 
 ### 云原生容器网络发展阶段
 
-<img src="/KubeEdge_Component_Of_EdgeMesh/edgeMesh_background_cloudnative_network.png" alt="edgeMesh_background_cloudnative_network" style="zoom:35%;" />
+<div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgeMesh_background_cloudnative_network.png" alt="edgemesh_background_cloudnative_network" style="zoom:35%;" /></div>
 
 - 第一阶段：Docker 容器网络，在 Docker 出现之后，也有自己的 4 种容器网络模型，比如 Host 模式、Content 模式，None 模式以及 Bridge 模式。但原生 Docker 容器无法解决容器之间的跨级通信问题，后来 Docker 推出 CNM 以及对应的实现 libnetwork 解决了这个问题。
 - 第二阶段：容器网络接口(CNI), 后来由于各种原因 Kubernetes 主推的 CNI 热度反超了 CNM，CNI 是一个接口更简单、而且兼容性更高的容器网络接口规范。
@@ -17,7 +17,7 @@ Kubernetes 服务发展其实与容器网络是依赖的关系，首先用户会
 
 为了解决这个问题, Kubernetes 社区提出了 Service 的概念，每个 Service 都会对应到一组后端的一个应用实例上，通过提供恒定不变的 Cluster IP 来解决 Pod IP 漂移的问题，同时也提供了 proxy 组件，基于控制面提供的一些信息维护 Cluster IP 到 Pod IP 的转换规则。当 Client 需要访问该服务时，一般只需要访问这个不变的 Cluster IP 即可。这个流量会经过本机的网络栈，被替换成了 mysql 后端实例的 Pod IP，通过容器网络请求发送。
 
-<img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_service_discovery.png" alt="edgemesh_service_discovery" style="zoom: 33%;" />
+<div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_service_discovery.png" alt="edgemesh_service_discovery" style="zoom: 33%;" /></div>
 
 ### 边缘场景下的挑战
 
@@ -30,7 +30,7 @@ Kubernetes 服务发展其实与容器网络是依赖的关系，首先用户会
 
 以上这些关键挑战，边缘计算平台 KubeEdge 均可以实现，也解决了基本上所有的问题。但除了这些问题外，还有一些其他问题，举个例子：比如边缘有一个视频流应用，需要与云上的 AI 应用进行交互。首先边缘的网络是无法直接与云上网络互相连通的，所以无法从边缘对云上进行访问。不过这个问题其实可以通过给云上的 AI 应用配置一个公网 IP 来解决，但如果云上的每一个应用都配置一个公网 IP，那 IP 将无法收敛。而且云上的应用想要主动访问边缘的应用，其实也是做不到的，因为边缘上的应用一般都处于**私网**里，它一般不会有公共 IP，所以就无法做到正确路由和双向通信。
 
-<img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_problem.png" alt="edgemesh_problem" style="zoom: 50%;" />
+<div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_problem.png" alt="edgemesh_problem" style="zoom: 50%;" /></div>
 
 **总的来说，有以下几个问题：**
 
@@ -60,11 +60,11 @@ EdgeMesh 作为 KubeEdge 集群的数据面组件，为应用程序提供了简�
 
 ### 实现功能
 
-<img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_func.png" alt="edgemesh_arch" style="zoom:50%;" />
+<div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_func.png" alt="edgemesh_arch" style="zoom:50%;" /></div>
 
 ### 架构
 
-<img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_arch.png" alt="edgemesh_arch" style="zoom: 50%;" />
+<div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_arch.png" alt="edgemesh_arch" style="zoom: 50%;" /></div>
 
 #### EdgeMesh-Agent
 
@@ -80,7 +80,7 @@ EdgeMesh 作为 KubeEdge 集群的数据面组件，为应用程序提供了简�
 
 ### 工作流程
 
-<img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_working_process.png" alt="edgemesh_working_process" style="zoom: 45%;" />
+<div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_working_process.png" alt="edgemesh_working_process" style="zoom: 45%;" /></div>
 
 ### 实现原理
 
@@ -93,7 +93,7 @@ EdgeMesh 作为 KubeEdge 集群的数据面组件，为应用程序提供了简�
 
 #### P2P打洞实现（NAT）
 
-<img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_nat.png" alt="edgemesh_nat" style="zoom:50%;" />
+<div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_nat.png" alt="edgemesh_nat" style="zoom:50%;" /></div>
 
 ##### NAT类型
 
@@ -115,13 +115,13 @@ EdgeMesh 作为 KubeEdge 集群的数据面组件，为应用程序提供了简�
 
 ### 官方性能测试
 
-<img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_benchmark_1.png" alt="edgemesh_benchmark_1" style="zoom: 40%;" />
+<div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_benchmark_1.png" alt="edgemesh_benchmark_1" style="zoom: 40%;" /></div>
 
-<img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_benchmark_2.png" alt="edgemesh_benchmark_2" style="zoom:40%;" />
+<div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_benchmark_2.png" alt="edgemesh_benchmark_2" style="zoom:40%;" /></div>
 
-<img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_benchmark_3.png" alt="edgemesh_benchmark_3" style="zoom:40%;" />
+<div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_benchmark_3.png" alt="edgemesh_benchmark_3" style="zoom:40%;" /></div>
 
-<img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_benchmark_4.png" alt="edgemesh_benchmark_4" style="zoom:40%;" />
+<div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_benchmark_4.png" alt="edgemesh_benchmark_4" style="zoom:40%;" /></div>
 
 ### 目前存在的问题
 
@@ -129,19 +129,19 @@ EdgeMesh 作为 KubeEdge 集群的数据面组件，为应用程序提供了简�
 
   - 情况1：
 
-  <img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_problems_1.png" alt="edgemesh_problems_1" style="zoom:50%;" />
+  <div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_problems_1.png" alt="edgemesh_problems_1" style="zoom:50%;" /></div>
 
   当连接数过大或通信流量过大时，都会导致edgemesh-server的单点故障问题
 
   - 情况2：
 
-  <img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_problems_2.png" alt="edgemesh_problems_2" style="zoom:50%;" />
+  <div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_problems_2.png" alt="edgemesh_problems_2" style="zoom:50%;" /></div>
 
   edgemesh-server 的位置会影响流量转发的延迟。如果中继服务器的位置太远，会大大增加延迟。
 
   - 情况3：
 
-    <img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_problems_3.png" alt="edgemesh_problems_3" style="zoom:50%;" />
+  <div align=center><img src="/KubeEdge_Component_Of_EdgeMesh/edgemesh_problems_3.png" alt="edgemesh_problems_3" style="zoom:50%;" /></div>
 
 在某些私有网络的情况下，edgemesh-agent 无法连接到外网的 edgemesh-server，从而导致 edgemesh-agent 无法正常工作。
 
