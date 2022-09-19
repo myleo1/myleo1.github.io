@@ -10,7 +10,7 @@
   - 节点元数据持久化，实现节点级离线自治
   - 节点故障恢复无需List-watch，降低网络压力，快速ready
 - 极致轻量
-  - 重组Ksubelet功能模块，极致轻量化（~10mb内存占用）
+  - 重组Kubelet功能模块，极致轻量化（~10mb内存占用）
     - 移除内嵌存储驱动，通过CSI接入
   - 支持CRI集成Containerd、CRI-O，优化runtime资源消耗
 
