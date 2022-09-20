@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://myleo1.github.io/categories/</loc><lastmod>2022-07-29T20:10:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://myleo1.github.io/categories/</loc><lastmod>2022-09-20T21:21:54&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://myleo1.github.io/en/categories/"
@@ -11,8 +11,10 @@
                     hreflang="zh-cn"
                     href="http://myleo1.github.io/categories/"
                     /></url><url>
-            <loc>http://myleo1.github.io/tags/kubernetes/</loc><lastmod>2022-07-29T20:10:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://myleo1.github.io/</loc><lastmod>2022-07-29T20:10:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://myleo1.github.io/tags/golang/</loc><lastmod>2022-09-20T21:21:54&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://myleo1.github.io/categories/golang/</loc><lastmod>2022-09-20T21:21:54&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://myleo1.github.io/go%E5%BA%95%E5%B1%82%E4%B9%8Bmap%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/</loc><lastmod>2022-09-20T21:21:54&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://myleo1.github.io/</loc><lastmod>2022-09-20T21:21:54&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://myleo1.github.io/en/"
@@ -21,8 +23,8 @@
                     hreflang="zh-cn"
                     href="http://myleo1.github.io/"
                     /></url><url>
-            <loc>http://myleo1.github.io/posts/</loc><lastmod>2022-07-29T20:10:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://myleo1.github.io/tags/</loc><lastmod>2022-07-29T20:10:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://myleo1.github.io/posts/</loc><lastmod>2022-09-20T21:21:54&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://myleo1.github.io/tags/</loc><lastmod>2022-09-20T21:21:54&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://myleo1.github.io/en/tags/"
@@ -31,6 +33,8 @@
                     hreflang="zh-cn"
                     href="http://myleo1.github.io/tags/"
                     /></url><url>
+            <loc>http://myleo1.github.io/tags/%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</loc><lastmod>2022-09-20T21:21:54&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://myleo1.github.io/tags/kubernetes/</loc><lastmod>2022-07-29T20:10:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://myleo1.github.io/categories/%E6%B7%B1%E5%85%A5%E5%89%96%E6%9E%90kubernetes/</loc><lastmod>2022-07-29T20:10:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://myleo1.github.io/%E6%B7%B1%E5%85%A5%E5%89%96%E6%9E%90kubernetes%E4%B9%8B%E4%B8%80%E9%A2%84%E4%B9%A0%E7%AF%87/</loc><lastmod>2022-07-29T20:10:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://myleo1.github.io/tags/%E4%BA%91%E5%8E%9F%E7%94%9F/</loc><lastmod>2022-07-29T20:10:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
